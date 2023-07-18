@@ -20,7 +20,6 @@ const DynamicForm = ({
 
   const setFieldRef = (index, inputRef , field) => {
     inputRefs.current[index] = inputRef;
-    console.log(`form-field-input-${field.name.toLowerCase()}`)
   };
 
   return (
